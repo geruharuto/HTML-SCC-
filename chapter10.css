@@ -52,4 +52,24 @@ main{
 h3{
 	padding: 15px 0;
 }
-
+@media screen and (max-width:768px){
+ main{
+ 	width: 100%;
+ 	padding: 50px;
+ }
+ .box{
+ 	margin: 0 auto;
+ 	float: none;
+ 	width: 90%;
+ 	margin-bottom: 20px;
+ }
+ .box:first-child{
+ 	margin: 0 auto;
+ }
+ .box:last-child{
+ 	padding: none;
+ }
+ .step-text{
+ 	background-color: red;
+ }
+}
